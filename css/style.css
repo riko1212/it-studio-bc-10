@@ -123,7 +123,7 @@ ul {
 }
 
 .works-item-number {
-  color: #4985FF;
+  color: #4985ff;
 }
 
 .works-link {
@@ -133,4 +133,11 @@ ul {
   color: #4985ff;
 }
 
-
+/* projects */
+.projects-title {
+  text-align: center;
+  color: #000000;
+}
+.projects-text {
+  text-align: center;
+}
