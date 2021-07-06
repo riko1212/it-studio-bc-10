@@ -15,42 +15,75 @@ ul {
   line-height: 1.25;
   text-align: center;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-                                      /* HEADER */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+}
+
+.section-text {
+  color: #999999;
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+/* HEADER */
 
 .header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
-  color: #FFFFFF;
-  }
-  
+  color: #ffffff;
+}
+
 /* Временно поставили фон */
 .page-header {
   background: grey;
 }
 
-                                      /* HERO */
-                                    
+/* HERO */
+
 .hero-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
-  color: #FFFFFF;
-  }
+  color: #ffffff;
+}
 
 .hero-title {
   font-weight: 800;
   font-size: 48px;
   line-height: 1.33;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Временно поставили фон */
 .hero {
   background: grey;
+}
+
+/* SERVICE */
+.service-title {
+  color: #323232;
+  text-align: center;
+}
+
+.service-text {
+  text-align: center;
+}
+
+.service-list-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.37;
+  color: #000000;
+}
+
+.service-list-text {
+  font-size: 14px;
 }
