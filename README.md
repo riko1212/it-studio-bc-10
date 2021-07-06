@@ -1,1 +1,0 @@
-# it-studio-bc-10
