@@ -105,3 +105,32 @@ ul {
   line-height: 1.47;
   color: #000000;
 }
+
+/*WORKS SECTION*/
+
+.works {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.works-title {
+  color: #fff;
+}
+
+.works-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.works-item-number {
+  color: #4985FF;
+}
+
+.works-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #4985ff;
+}
+
+
