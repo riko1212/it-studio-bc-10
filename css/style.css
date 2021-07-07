@@ -25,7 +25,6 @@ p {
   width: 200px;
   height: 45px;
   display: block;
-  margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -100,20 +99,45 @@ p {
   text-align: center;
   color: #ffffff;
 }
-
+.hero-btn { 
+    margin: 0 auto;
+}
 /* Временно поставили фон */
 .hero {
   background: grey;
 }
 
 /* SERVICE */
+.service {
+  padding-top:110px ;
+  padding-bottom: 105px;
+}
+
 .service-title {
   color: #323232;
   text-align: center;
+    max-width:739px ;
+  margin:0 auto;
+  margin-bottom: 50px;
 }
 
 .service-text {
   text-align: center;
+  max-width: 730px ;
+  margin:0 auto ; 
+  margin-bottom: 70px;
+}
+.service-list {
+  display: flex;
+  margin-left: -27px;
+  margin-bottom: 55px;
+
+}
+
+.service-item { 
+flex-basis:calc((100% / 3 ) - 27px) ;
+margin-left: 27px;
+
 }
 
 .service-list-title {
@@ -125,6 +149,9 @@ p {
 
 .service-list-text {
   font-size: 14px;
+}
+.service-btn { 
+  margin:0 auto; 
 }
 
 /* STANDART */
@@ -186,5 +213,3 @@ p {
   padding-top: 319px;
   padding-bottom: 335px;
 }
-
-.he
