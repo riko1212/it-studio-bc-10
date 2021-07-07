@@ -3,8 +3,20 @@ body {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
 .link {
   text-decoration: none;
 }
@@ -29,6 +41,13 @@ ul {
   font-size: 16px;
   line-height: 1.56;
 }
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid tomato;
+}
 
 /* HEADER */
 
@@ -41,7 +60,17 @@ ul {
 
 /* Временно поставили фон */
 .page-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: grey;
+}
+.header-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 /* HERO */
