@@ -22,12 +22,19 @@ p {
 }
 
 .btn {
+  width: 200px;
+  height: 45px;
+  display: block;
+  margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   text-align: center;
-
   color: #ffffff;
+  background: #4985FF;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .section-title {
@@ -76,6 +83,7 @@ p {
 /* HERO */
 
 .hero-text {
+  margin-bottom: 20px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
@@ -84,6 +92,8 @@ p {
 }
 
 .hero-title {
+  max-width: 829px;
+  margin: 0 auto 50px;
   font-weight: 800;
   font-size: 48px;
   line-height: 1.33;
@@ -167,6 +177,14 @@ p {
   text-align: center;
   color: #000000;
 }
+
 .projects-text {
   text-align: center;
 }
+
+.hero {
+  padding-top: 319px;
+  padding-bottom: 335px;
+}
+
+.he
