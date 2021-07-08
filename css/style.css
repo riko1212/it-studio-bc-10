@@ -30,7 +30,7 @@ p {
   line-height: 1.25;
   text-align: center;
   color: #ffffff;
-  background: #4985FF;
+  background: #4985ff;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -99,8 +99,8 @@ p {
   text-align: center;
   color: #ffffff;
 }
-.hero-btn { 
-    margin: 0 auto;
+.hero-btn {
+  margin: 0 auto;
 }
 /* Временно поставили фон */
 .hero {
@@ -109,35 +109,33 @@ p {
 
 /* SERVICE */
 .service {
-  padding-top:110px ;
+  padding-top: 110px;
   padding-bottom: 105px;
 }
 
 .service-title {
   color: #323232;
   text-align: center;
-    max-width:739px ;
-  margin:0 auto;
+  max-width: 739px;
+  margin: 0 auto;
   margin-bottom: 50px;
 }
 
 .service-text {
   text-align: center;
-  max-width: 730px ;
-  margin:0 auto ; 
+  max-width: 730px;
+  margin: 0 auto;
   margin-bottom: 70px;
 }
 .service-list {
   display: flex;
   margin-left: -27px;
   margin-bottom: 55px;
-
 }
 
-.service-item { 
-flex-basis:calc((100% / 3 ) - 27px) ;
-margin-left: 27px;
-
+.service-item {
+  flex-basis: calc((100% / 3) - 27px);
+  margin-left: 27px;
 }
 
 .service-list-title {
@@ -150,11 +148,35 @@ margin-left: 27px;
 .service-list-text {
   font-size: 14px;
 }
-.service-btn { 
-  margin:0 auto; 
+.service-btn {
+  margin: 0 auto;
 }
 
 /* STANDART */
+.standart {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.standart-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.standart-content {
+  max-width: 489px;
+}
+
+.standart-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .standart-title {
   color: #323232;
 }
