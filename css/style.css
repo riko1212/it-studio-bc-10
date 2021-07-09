@@ -52,32 +52,43 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 
 /* HEADER */
 
 .header-link {
+  display: block;
+  padding: 40px 20px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.25;
   color: #ffffff;
+
+  /* outline: 1px solid teal; */
+}
+
+.header-link.current {
+  border-bottom: 2px solid #FFFFFF;
 }
 
 /* Временно поставили фон */
 .page-header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
   background: grey;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.5);
 }
 .header-list {
   display: flex;
   justify-content: flex-end;
 }
 
-.header-item:not(:last-child) {
+
+/* .header-item:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
 /* HERO */
 
@@ -104,7 +115,18 @@ p {
 }
 /* Временно поставили фон */
 .hero {
+  max-width: 1920px;
+  margin-right: auto;
+  margin-left: auto;
   background: grey;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.2),
+     rgba(0, 0, 0, 0.2)
+  ),
+  url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* SERVICE */
