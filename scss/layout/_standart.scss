@@ -1,0 +1,47 @@
+.standart {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.standart-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 90px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.standart__top {
+    margin-bottom: 70px;
+}
+
+.standart-content__title {
+    max-width: 489px;
+    margin-bottom: 20px;
+}
+
+.standart-content__text {
+    margin-bottom: 20px;
+}
+
+.standart-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-title_color_dark {
+    color: #323232;
+}
+
+.standart-content__link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    color: #4985ff;
+}
+
+.standart-list__digit {
+    font-size: 36px;
+    line-height: 1.47;
+    color: #000000;
+}

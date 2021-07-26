@@ -1,0 +1,33 @@
+.hero__text {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero__title {
+    max-width: 829px;
+    margin: 0 auto 50px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+}
+.hero-btn {
+    margin: 0 auto;
+}
+/* Временно поставили фон */
+.hero {
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    background: grey;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
